@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-10-05T07:18:32.369Z",
+  "base": "http://127.0.0.1:3000",
+  "coordinatorId": "salon/juniper-v2",
+  "openingId": "salon/juniper-v2/opening/a04ac601-34a5-4e50-81cb-9f7a14a72396",
+  "offerId": "salon/juniper-v2/opening/a04ac601-34a5-4e50-81cb-9f7a14a72396/offer/sample-1",
+  "selectedClient": "Maya Chen",
+  "workflowStatus": "COMPLETED",
+  "opening": {
+    "id": "salon/juniper-v2/opening/a04ac601-34a5-4e50-81cb-9f7a14a72396",
+    "service": "Haircut",
+    "stylist": "Elena",
+    "startsAt": 1791185011662,
+    "durationMinutes": 30,
+    "demoFast": false,
+    "failFirstDelivery": false,
+    "status": "filled",
+    "history": [
+      {
+        "at": 1791184711700,
+        "message": "Opening added."
+      },
+      {
+        "at": 1791184711817,
+        "message": "Offered to Maya Chen."
+      },
+      {
+        "at": 1791184712023,
+        "message": "Confirmed for Maya Chen. Please update the salon calendar."
+      }
+    ],
+    "offerId": "salon/juniper-v2/opening/a04ac601-34a5-4e50-81cb-9f7a14a72396/offer/sample-1"
+  },
+  "checks": [
+    "Staff access enforced",
+    "Opening launched by coordinator",
+    "Offer reserved and simulated text recorded",
+    "Private view has only appointment fields",
+    "Concurrent repeat acceptance returns success twice",
+    "One confirmation message",
+    "Entry fulfilled and staff opening filled",
+    "Tampered link rejected",
+    "Opening Workflow completed in Temporal"
+  ]
+}

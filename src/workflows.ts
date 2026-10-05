@@ -40,3 +40,9 @@ export async function demoWorkflow(requestId: string): Promise<DemoStatus> {
   return status;
 }
 
+
+export { salonWorkflow } from './legacy/salon';
+export { openingWorkflow } from './legacy/opening';
+
+export { salonWorkflowV2 } from './salon';
+export { openingWorkflowV2 } from './opening';
