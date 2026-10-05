@@ -25,7 +25,7 @@ See [every acceptance criterion](evidence/acceptance.md), [verification output](
 ## Finish before submission
 
 - Review the staff and client pages at desktop and phone width. This visual check has not been independently completed by the agent.
-- Capture `evidence/temporal-workflow.png` following [the starter’s screenshot requirement](../evidence/README.md).
+- Temporal Web UI evidence is included: [completed Workflow screenshot](../evidence/temporal-workflow.png) and [run details](../evidence/README.md).
 - Publish only to `rahuldadlani/stanford-study-post-assessment`. Confirm GitHub shows **Public** and does not say **forked from**. Do not add the starter owners as collaborators.
 - Keep `.juniper-secret`, `.env`, `node_modules`, local Temporal data, and unrelated course files out of the submission. The source archive is built from tracked Git files, with dependencies installed by the reviewer using `npm ci`.
 

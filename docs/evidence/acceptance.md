@@ -1,6 +1,6 @@
 # Acceptance evidence — Juniper Salon v2
 
-The expanded prototype is implemented. A local review package can be prepared from the verified source. Final submission still needs visual review, the starter-requested Temporal UI screenshot, and GitHub publication checks. This report records evidence before packaging; implementation alone is not a passing acceptance result.
+The expanded prototype is implemented. A local review package can be prepared from the verified source. Final submission still needs visual review and GitHub publication checks. The starter-requested Temporal UI screenshot is included. This report records evidence before packaging; implementation alone is not a passing acceptance result.
 
 Rahul authorized continuing after the first-slice handoff. The visible-app smoke subsequently passed; its saved result is linked below.
 
@@ -13,7 +13,7 @@ Rahul authorized continuing after the first-slice handoff. The visible-app smoke
 - Real Temporal/HTTP integration: **7 PASS**, from the user-run verification at `2026-10-05T07:15:57.229Z`. The saved SHA-256 matches the current source. This supersedes the earlier sandbox-blocked attempt. Restart, rollover, concurrency, progression, cancellation and HTTP privacy scenarios all ran successfully.
 - Visible-app smoke: **PASS** at `2026-10-05T07:18:32.369Z`. [Saved result](first-slice-smoke.json): Maya Chen received the offer; concurrent repeat acceptance produced one confirmation; the opening is filled and its Temporal Workflow is `COMPLETED`. This supersedes the earlier API-not-running error.
 - Visual review on desktop/mobile: **NOT YET VERIFIED**. The user reports the app works. Automated visual inspection was unavailable: Computer Use returned no browsers/apps and a native-pipe startup failure. No screenshot was fabricated.
-- Starter-requested Temporal UI screenshot: **PENDING**; see [capture instructions](../../evidence/README.md).
+- Starter-requested Temporal UI screenshot: **PRESENT**; the [user-captured screenshot](../../evidence/temporal-workflow.png) shows a completed opening with result `"filled"`, a timer, Signal, and Activities. See [run details](../../evidence/README.md).
 
 [`verification.json`](verification.json) contains command output, execution timestamp, source SHA-256, and each stage’s exit status. The source hash covers application code, scripts, tests, and package files, but excludes documentation, credentials and generated evidence. A live rerun replaces the report, including failed results; it never silently claims success.
 
